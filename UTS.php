@@ -3,7 +3,7 @@
 <title>PENJUMLAHAN</title>
 <body>
 
-<h1>UTS Pemograman Internet Fardan</h1>
+<h1>Fardan UTS Pemograman Internet</h1>
 <form name="autoSumForm" action="">
   Nilai Pertama :<br>
   <input type="text" name="nilai1" onFocus="startCalc();">
@@ -15,12 +15,15 @@
   <input type="text" name="hasil" onchange="tryNumberFormat(this.form.thirdBox);">
   <br>
 </form>
+                                                                                 
+                                                                                 
 <script>
 function startCalc(){
 interval = setInterval("calc()",1);}
 function calc(){
 y = document.autoSumForm.nilai1.value;
 z = document.autoSumForm.nilai2.value;
+                               
 document.autoSumForm.hasil.value = ( y * z );}
 function stopCalc(){
 clearInterval(interval);}
