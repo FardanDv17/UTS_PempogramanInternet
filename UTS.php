@@ -5,10 +5,10 @@
 
 <h1>Fardan UTS Pemograman Internet</h1>
 <form name="autoSumForm" action="">
-  Nilai Pertama :<br>
+  Masukan Nilai Pertama :<br>
   <input type="text" name="nilai1" onFocus="startCalc();">
   <br>
-  Nilai ke dua:<br>
+  Masukan Nilai ke dua:<br>
   <input type="text" name="nilai2" onFocus="startCalc();"" onBlur="stopCalc();" >
   <br><br>
   Hasil :<br>
